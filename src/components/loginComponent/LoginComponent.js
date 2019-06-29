@@ -25,6 +25,7 @@ render(){
     return (
         <div className="initialloginComponent">
             <div className="initialformContainer">
+            <button className="initialbuttonForm google">Login with Google</button>
             <form className="initialform" onSubmit={this.validateForm}>
                 <div className="initialdivInput">
             <input className="initialformInput" type="email" placeholder="username / email"
@@ -44,7 +45,7 @@ render(){
           </div>
            </form>
            </div>
-           <div className="initialpassContainer">
+           <div className="initialpassContainer marginTop">
            <span><NavLink to="/password" className="navigationContent">Forgot Password?</NavLink></span>
            <span className="navigationName">No account yet? <NavLink to="/registro" className="navigationContent">Sign up</NavLink></span>
            </div>
