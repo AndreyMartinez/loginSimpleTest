@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 //Containers and components
-import {LoginContainer} from '../containers/login/loginContainer'
-import {LoginComponent} from '../components/loginComponent/LoginComponent'
+import LoginContainer from '../containers/login/loginContainer'
+import LoginComponent from '../components/loginComponent/LoginComponent'
 
 class Routers extends Component{
     render() {

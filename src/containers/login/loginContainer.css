@@ -1,0 +1,18 @@
+:root{
+  --color-letter:#554d56;
+}
+.componentContent{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100%;
+  background-size: cover;
+  align-items:center;
+  align-content: center,
+}
+.textLogin{
+  line-height: 48px;
+  font-size: 36px;
+  font-weight: 300;
+  color: var(--color-letter);
+}

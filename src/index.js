@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import {createStore, compose, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk';
-
 import * as serviceWorker from './serviceWorker';
+
 import Routers from './router/router';
 import rootReducer from './reducers/rootReducers'
+
+import './index.css';
+
 
 let store = createStore(rootReducer,compose(applyMiddleware(thunk)))
 ReactDOM.render(

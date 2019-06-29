@@ -1,0 +1,86 @@
+:root{
+    --colorLetter:#554d56;
+    --pageSecundary:#459ef9;
+  }
+
+
+.initialloginComponent{
+    width: 30%;
+    height: 44%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;  
+}
+
+/*                      config input                */
+.initialdivInput{
+    display: flex;
+    height: 34%;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+.initialformInput{
+    height: 93%;
+    border: 0;
+    width: 96%;
+    border-bottom: 1px solid #979196;
+}
+
+::placeholder{
+  line-height: 48px;
+  font-size: 1.8em;
+  font-weight: 300;
+  color: var(--colorLetter);
+}
+
+.initialformContainer{
+    width: 100%;
+    text-align: center;
+    height: 74%;
+}
+.initialform{
+    height: 75%;
+}
+
+
+
+.initialbuttonForm{
+    background-color: var(--pageSecundary);
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px 170px;
+     margin: 1% 2%;
+}
+.initialpassContainer{
+    width: 100%;
+    display: flex;
+    color: white;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.navigationContent{
+    color: var(--pageSecundary);
+    text-decoration: none;
+    margin: 2px;
+    opacity:0.5;
+}
+
+.navigationName{
+    color: var(--colorLetter);
+}
+
+.navigationContent:hover{
+    opacity:1;
+}
+
+
+.marginTop{
+    margin-top: 7%;
+    }
