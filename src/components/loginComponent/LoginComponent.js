@@ -15,9 +15,14 @@ class LoginComponent extends Component {
         }
       }
 
+
+      /**
+       * @author Raphael Martinez
+       * @description Send values 
+       */
       validateForm = e => {
-        e.preventDefault();
         console.log('entro')
+        e.preventDefault();
         this.props.actions.login(this.state.email, this.state.password)
       }
 
@@ -26,7 +31,7 @@ render(){
         <div className="initialloginComponent">
             <div className="initialformContainer">
             <button className="initialbuttonForm google">Login with Google</button>
-            <form className="initialform" onSubmit={this.validateForm}>
+           <form className="initialform marginTop" onSubmit={this.validateForm}>
                 <div className="initialdivInput">
             <input className="initialformInput" type="email" placeholder="username / email"
            required

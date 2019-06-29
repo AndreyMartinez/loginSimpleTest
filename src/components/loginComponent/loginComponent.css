@@ -23,7 +23,7 @@
 }
 
 .initialformInput{
-    height: 93%;
+    height: 48%;
     border: 0;
     width: 96%;
     border-bottom: 1px solid #979196;
@@ -90,4 +90,7 @@
 
 .marginTop{
     margin-top: 7%;
+    }
+    .margin{
+        margin: 5% 0;
     }

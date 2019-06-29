@@ -16,7 +16,6 @@ export function login(email, password) {
   return dispatch => {
     dispatch(showLoading("sectionBar"));
     userApi.login(email, password).then(response => {
-     dispatch(loginSuccess(response));
       dispatch(hideLoading("sectionBar"));
       dispatch(success(succes_login));
     }).catch(err => {
@@ -28,7 +27,7 @@ export function login(email, password) {
 
 export function loginSuccess(response) {
   return { type: types.AUTH_USER, response };
-}
+} 
 
 
 
